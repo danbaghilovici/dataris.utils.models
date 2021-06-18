@@ -1,7 +1,7 @@
 from __future__ import annotations
 from typing import TypedDict,Union,List
 
-class IUNCTIOCompositionOperation(TypedDict):
+class DATARISCompositionOperation(TypedDict):
     result:any
     time:Union[int,float]
     iteration:int
